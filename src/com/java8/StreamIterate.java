@@ -9,6 +9,7 @@ public class StreamIterate {
         .limit(10)
         .forEach(x -> System.out.println(x));
 		
+		
 		Stream.iterate(0, n -> n + 1)
 		.filter(x -> x % 2 != 0) //odd
 		.limit(10)

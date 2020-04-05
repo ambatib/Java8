@@ -7,6 +7,7 @@ public @interface FunctionalInterface {
 
 }
 
+
 interface Foo { boolean equals(Object obj); }
 // Not functional because equals is already an implicit member (Object class)
 
