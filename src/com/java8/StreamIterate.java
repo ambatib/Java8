@@ -24,9 +24,7 @@ public class StreamIterate {
                 .map(n -> n[0]) // Stream<Integer>
                 .mapToInt(n -> n)
                 .sum();
-		
-
-        System.out.println("Fibonacci 10 sum : " + sum);
+		System.out.println("Fibonacci 10 sum : " + sum);
 
 	}
 
