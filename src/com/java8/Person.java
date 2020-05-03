@@ -8,7 +8,7 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 public class Person {
-	private String name;
-	private int age;
+	String name;
+	int age;
 
 }
